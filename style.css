@@ -1,0 +1,14 @@
+img{
+    width: 50%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
