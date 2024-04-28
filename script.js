@@ -260,6 +260,9 @@ var flag = document.querySelector("img");
 flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code +".svg"
 
 function getFlag(){
+  if (!input.disabled){
+    checkAnswer();
+  }
     input.disabled = false
     var answer = document.querySelector(".answer")
     answer.innerHTML = ""
@@ -270,9 +273,7 @@ function getFlag(){
 
 var input = document.querySelector("input")
 
-// Execute a function when the user presses a key on the keyboard
 input.addEventListener("keypress", function(event) {
-  // If the user presses the "Enter" key on the keyboard
   if (event.key === "Enter") {
     var name = data[num].country
     var answer = document.querySelector(".answer")

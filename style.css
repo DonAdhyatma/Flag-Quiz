@@ -1,3 +1,14 @@
+*{
+    font-family: 'Poppins' ;
+    color: white;
+}
+
+body{
+    margin: auto;
+    align-items: center;
+    background: rgb(24,29,60);
+background: linear-gradient(94deg, rgba(24,29,60,1) 0%, rgba(30,48,96,1) 100%);
+}
 img{
     height: 200px;
 }
@@ -11,4 +22,26 @@ div {
 
 h1{
     text-align: center;
+}
+
+button{
+    border: 3px solid white;
+    font-family:  'Poppins';
+    border-radius: 20%;
+    font-size: 1.3rem;
+    padding: 0.5rem 2rem ;
+    color: white;
+    background-color: transparent;
+    transition: opacity 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+input{
+    margin: 1rem 0 0 0;
+    background-color: transparent;
+    border: 2px solid white;
 }
