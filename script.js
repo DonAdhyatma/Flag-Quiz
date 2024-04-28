@@ -252,8 +252,8 @@ const data = [
   { country: "Åland Islands", code: "AX" }
 ];
 
-var points = 0
-var count = document.querySelector("h3")
+var points = 0;
+var count = document.querySelector("h3");
 var num = Math.floor(Math.random() * 250);
 
 var flag = document.querySelector("img");
