@@ -27,7 +27,7 @@ h1{
 button{
     border: 3px solid white;
     font-family:  'Poppins';
-    border-radius: 20%;
+    border-radius: 10%;
     font-size: 1.3rem;
     padding: 0.5rem 2rem ;
     color: white;
@@ -37,7 +37,7 @@ button{
 
 button:hover{
     cursor: pointer;
-    opacity: 50%;
+    opacity: 60%;
 }
 
 input{

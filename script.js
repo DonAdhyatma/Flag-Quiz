@@ -263,6 +263,7 @@ function getFlag(){
   if (!input.disabled){
     checkAnswer();
   }
+    input.value = ""
     input.disabled = false
     var answer = document.querySelector(".answer")
     answer.innerHTML = ""
