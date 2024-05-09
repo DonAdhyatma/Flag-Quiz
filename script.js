@@ -2,15 +2,11 @@ const data = [
   { country: "Afghanistan", code: "AF" },
   { country: "Albania", code: "AL" },
   { country: "Algeria", code: "DZ" },
-  { country: "American Samoa", code: "AS" },
   { country: "Andorra", code: "AD" },
   { country: "Angola", code: "AO" },
-  { country: "Anguilla", code: "AI" },
-  { country: "Antarctica", code: "AQ" },
   { country: "Antigua and Barbuda", code: "AG" },
   { country: "Argentina", code: "AR" },
   { country: "Armenia", code: "AM" },
-  { country: "Aruba", code: "AW" },
   { country: "Australia", code: "AU" },
   { country: "Austria", code: "AT" },
   { country: "Azerbaijan", code: "AZ" },
@@ -22,15 +18,11 @@ const data = [
   { country: "Belgium", code: "BE" },
   { country: "Belize", code: "BZ" },
   { country: "Benin", code: "BJ" },
-  { country: "Bermuda", code: "BM" },
   { country: "Bhutan", code: "BT" },
-  { country: "Bolivia (Plurinational State of)", code: "BO" },
-  { country: "Bonaire, Sint Eustatius and Saba", code: "BQ" },
+  { country: "Bolivia", code: "BO" },
   { country: "Bosnia and Herzegovina", code: "BA" },
   { country: "Botswana", code: "BW" },
-  { country: "Bouvet Island", code: "BV" },
   { country: "Brazil", code: "BR" },
-  { country: "British Indian Ocean Territory", code: "IO" },
   { country: "Brunei Darussalam", code: "BN" },
   { country: "Bulgaria", code: "BG" },
   { country: "Burkina Faso", code: "BF" },
@@ -39,13 +31,10 @@ const data = [
   { country: "Cambodia", code: "KH" },
   { country: "Cameroon", code: "CM" },
   { country: "Canada", code: "CA" },
-  { country: "Cayman Islands", code: "KY" },
   { country: "Central African Republic", code: "CF" },
   { country: "Chad", code: "TD" },
   { country: "Chile", code: "CL" },
   { country: "China", code: "CN" },
-  { country: "Christmas Island", code: "CX" },
-  { country: "Cocos (Keeling) Islands", code: "CC" },
   { country: "Colombia", code: "CO" },
   { country: "Comoros", code: "KM" },
   { country: "Democratic Republic of Congo", code: "CD" },
@@ -54,10 +43,9 @@ const data = [
   { country: "Costa Rica", code: "CR" },
   { country: "Croatia", code: "HR" },
   { country: "Cuba", code: "CU" },
-  { country: "Curaçao", code: "CW" },
   { country: "Cyprus", code: "CY" },
   { country: "Czechia", code: "CZ" },
-  { country: "Côte d'Ivoire", code: "CI" },
+  { country: "Ivory Coast", code: "CI" },
   { country: "Denmark", code: "DK" },
   { country: "Djibouti", code: "DJ" },
   { country: "Dominica", code: "DM" },
@@ -70,35 +58,25 @@ const data = [
   { country: "Estonia", code: "EE" },
   { country: "Eswatini", code: "SZ" },
   { country: "Ethiopia", code: "ET" },
-  { country: "Falkland Islands", code: "FK" },
-  { country: "Faroe Islands", code: "FO" },
   { country: "Fiji", code: "FJ" },
   { country: "Finland", code: "FI" },
   { country: "France", code: "FR" },
-  { country: "French Guiana", code: "GF" },
-  { country: "French Polynesia", code: "PF" },
-  { country: "French Southern Territories", code: "TF" },
   { country: "Gabon", code: "GA" },
   { country: "Gambia", code: "GM" },
   { country: "Georgia", code: "GE" },
   { country: "Germany", code: "DE" },
   { country: "Ghana", code: "GH" },
-  { country: "Gibraltar", code: "GI" },
   { country: "Greece", code: "GR" },
   { country: "Greenland", code: "GL" },
   { country: "Grenada", code: "GD" },
-  { country: "Guadeloupe", code: "GP" },
-  { country: "Guam", code: "GU" },
   { country: "Guatemala", code: "GT" },
-  { country: "Guernsey", code: "GG" },
   { country: "Guinea", code: "GN" },
   { country: "Guinea-Bissau", code: "GW" },
   { country: "Guyana", code: "GY" },
   { country: "Haiti", code: "HT" },
-  { country: "Heard Island and McDonald Islands", code: "HM" },
+  { country: "Australia", code: "HM" },
   { country: "Vatican City", code: "VA" },
   { country: "Honduras", code: "HN" },
-  { country: "Hong Kong", code: "HK" },
   { country: "Hungary", code: "HU" },
   { country: "Iceland", code: "IS" },
   { country: "India", code: "IN" },
@@ -107,7 +85,6 @@ const data = [
   { country: "Iraq", code: "IQ" },
   { country: "Ireland", code: "IE" },
   { country: "Isle of Man", code: "IM" },
-  { country: "Israel", code: "IL" },
   { country: "Italy", code: "IT" },
   { country: "Jamaica", code: "JM" },
   { country: "Japan", code: "JP" },
@@ -137,7 +114,6 @@ const data = [
   { country: "Mali", code: "ML" },
   { country: "Malta", code: "MT" },
   { country: "Marshall Islands", code: "MH" },
-  { country: "Martinique", code: "MQ" },
   { country: "Mauritania", code: "MR" },
   { country: "Mauritius", code: "MU" },
   { country: "Mayotte", code: "YT" },
@@ -147,7 +123,6 @@ const data = [
   { country: "Monaco", code: "MC" },
   { country: "Mongolia", code: "MN" },
   { country: "Montenegro", code: "ME" },
-  { country: "Montserrat", code: "MS" },
   { country: "Morocco", code: "MA" },
   { country: "Mozambique", code: "MZ" },
   { country: "Myanmar", code: "MM" },
@@ -155,25 +130,21 @@ const data = [
   { country: "Nauru", code: "NR" },
   { country: "Nepal", code: "NP" },
   { country: "Netherlands", code: "NL" },
-  { country: "New Caledonia", code: "NC" },
   { country: "New Zealand", code: "NZ" },
   { country: "Nicaragua", code: "NI" },
   { country: "Niger", code: "NE" },
   { country: "Nigeria", code: "NG" },
   { country: "Niue", code: "NU" },
-  { country: "Norfolk Island", code: "NF" },
-  { country: "Northern Mariana Islands", code: "MP" },
   { country: "Norway", code: "NO" },
   { country: "Oman", code: "OM" },
   { country: "Pakistan", code: "PK" },
   { country: "Palau", code: "PW" },
-  { country: "Palestine, State of", code: "PS" },
+  { country: "Palestine", code: "PS" },
   { country: "Panama", code: "PA" },
   { country: "Papua New Guinea", code: "PG" },
   { country: "Paraguay", code: "PY" },
   { country: "Peru", code: "PE" },
   { country: "Philippines", code: "PH" },
-  { country: "Pitcairn", code: "PN" },
   { country: "Poland", code: "PL" },
   { country: "Portugal", code: "PT" },
   { country: "Puerto Rico", code: "PR" },
@@ -183,12 +154,8 @@ const data = [
   { country: "Russia", code: "RU" },
   { country: "Rwanda", code: "RW" },
   { country: "Réunion", code: "RE" },
-  { country: "Saint Barthélemy", code: "BL" },
-  { country: "Saint Helena, Ascension and Tristan da Cunha", code: "SH" },
   { country: "Saint Kitts and Nevis", code: "KN" },
   { country: "Saint Lucia", code: "LC" },
-  { country: "Saint Martin (French part)", code: "MF" },
-  { country: "Saint Pierre and Miquelon", code: "PM" },
   { country: "Saint Vincent and the Grenadines", code: "VC" },
   { country: "Samoa", code: "WS" },
   { country: "San Marino", code: "SM" },
@@ -199,31 +166,25 @@ const data = [
   { country: "Seychelles", code: "SC" },
   { country: "Sierra Leone", code: "SL" },
   { country: "Singapore", code: "SG" },
-  {
-
- country: "Sint Maarten (Dutch part)", code: "SX" },
   { country: "Slovakia", code: "SK" },
   { country: "Slovenia", code: "SI" },
   { country: "Solomon Islands", code: "SB" },
   { country: "Somalia", code: "SO" },
   { country: "South Africa", code: "ZA" },
-  { country: "South Georgia and the South Sandwich Islands", code: "GS" },
   { country: "South Sudan", code: "SS" },
   { country: "Spain", code: "ES" },
   { country: "Sri Lanka", code: "LK" },
   { country: "Sudan", code: "SD" },
   { country: "Suriname", code: "SR" },
-  { country: "Svalbard and Jan Mayen", code: "SJ" },
   { country: "Sweden", code: "SE" },
   { country: "Switzerland", code: "CH" },
-  { country: "Syrian Arab Republic", code: "SY" },
+  { country: "Syria", code: "SY" },
   { country: "Taiwan (Province of China)", code: "TW" },
   { country: "Tajikistan", code: "TJ" },
   { country: "Tanzania, United Republic of", code: "TZ" },
   { country: "Thailand", code: "TH" },
   { country: "Timor-Leste", code: "TL" },
   { country: "Togo", code: "TG" },
-  { country: "Tokelau", code: "TK" },
   { country: "Tonga", code: "TO" },
   { country: "Trinidad and Tobago", code: "TT" },
   { country: "Tunisia", code: "TN" },
@@ -235,31 +196,28 @@ const data = [
   { country: "Ukraine", code: "UA" },
   { country: "United Arab Emirates", code: "AE" },
   { country: "United Kingdom", code: "GB" },
-  { country: "United States Minor Outlying Islands", code: "UM" },
   { country: "United States of America", code: "US" },
   { country: "Uruguay", code: "UY" },
   { country: "Uzbekistan", code: "UZ" },
   { country: "Vanuatu", code: "VU" },
   { country: "Venezuela", code: "VE" },
-  { country: "Viet Nam", code: "VN" },
-  { country: "Virgin Islands (British)", code: "VG" },
-  { country: "Virgin Islands (U.S.)", code: "VI" },
-  { country: "Wallis and Futuna", code: "WF" },
-  { country: "Western Sahara", code: "EH" },
+  { country: "Vietnam", code: "VN" },
   { country: "Yemen", code: "YE" },
   { country: "Zambia", code: "ZM" },
-  { country: "Zimbabwe", code: "ZW" },
-  { country: "Åland Islands", code: "AX" }
+  { country: "Zimbabwe", code: "ZW" }
 ];
 
 var points = 0;
 var count = document.querySelector("h3");
-var num = Math.floor(Math.random() * 250);
+var num = Math.floor(Math.random() * 207);
 
 var flag = document.querySelector("img");
 flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code +".svg"
 
+var enter = 0
+
 function getFlag(){
+  enter = 0
   if (!input.disabled){
     checkAnswer();
   }
@@ -267,7 +225,7 @@ function getFlag(){
     input.disabled = false
     var answer = document.querySelector(".answer")
     answer.innerHTML = ""
-    num = Math.floor(Math.random() * 250);
+    num = Math.floor(Math.random() * 207);
     flag = document.getElementById("flag");
     flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code +".svg"
 }
@@ -275,13 +233,21 @@ function getFlag(){
 var input = document.querySelector("input")
 
 input.addEventListener("keypress", function(event) {
-  if (event.key === "Enter") {
+  if (event.key === "Enter" & enter===0) {
     var name = data[num].country
     var answer = document.querySelector(".answer")
     answer.innerHTML = name
     checkAnswer();
     input.disabled = true
+    enter += 1
+    console.log(enter)
   }
+
+  else if (event.key === "Enter" & enter ===1){
+    getFlag()
+  }
+
+
 });
 
 function checkAnswer(){
