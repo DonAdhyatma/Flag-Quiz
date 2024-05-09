@@ -205,7 +205,9 @@ const data = [
 ];
 
 var points = 0;
-var count = document.querySelector("h3");
+var incorrect = 0;
+var count = document.querySelector(".points");
+var wrong = document.querySelector(".wrong");
 var num = Math.floor(Math.random() * 203);
 
 var flag = document.querySelector("img");
@@ -246,5 +248,9 @@ function checkAnswer(){
     if (input.value.toLowerCase() === data[num].country.toLowerCase()){
         points +=1
         count.innerHTML ="Points: " + points
+    }
+    else{
+      incorrect +=1
+      wrong.innerHTML = "Incorrect: " + incorrect
     }
 }
