@@ -39,7 +39,6 @@ const data = [
   { country: "Comoros", code: "KM" },
   { country: "Democratic Republic of Congo", code: "CD" },
   { country: "Congo", code: "CG" },
-  { country: "Cook Islands", code: "CK" },
   { country: "Costa Rica", code: "CR" },
   { country: "Croatia", code: "HR" },
   { country: "Cuba", code: "CU" },
@@ -81,7 +80,7 @@ const data = [
   { country: "Iceland", code: "IS" },
   { country: "India", code: "IN" },
   { country: "Indonesia", code: "ID" },
-  { country: "Iran (Islamic Republic of)", code: "IR" },
+  { country: "Iran", code: "IR" },
   { country: "Iraq", code: "IQ" },
   { country: "Ireland", code: "IE" },
   { country: "Isle of Man", code: "IM" },
@@ -116,7 +115,6 @@ const data = [
   { country: "Marshall Islands", code: "MH" },
   { country: "Mauritania", code: "MR" },
   { country: "Mauritius", code: "MU" },
-  { country: "Mayotte", code: "YT" },
   { country: "Mexico", code: "MX" },
   { country: "Micronesia", code: "FM" },
   { country: "Moldova", code: "MD" },
@@ -134,7 +132,6 @@ const data = [
   { country: "Nicaragua", code: "NI" },
   { country: "Niger", code: "NE" },
   { country: "Nigeria", code: "NG" },
-  { country: "Niue", code: "NU" },
   { country: "Norway", code: "NO" },
   { country: "Oman", code: "OM" },
   { country: "Pakistan", code: "PK" },
@@ -179,7 +176,7 @@ const data = [
   { country: "Sweden", code: "SE" },
   { country: "Switzerland", code: "CH" },
   { country: "Syria", code: "SY" },
-  { country: "Taiwan (Province of China)", code: "TW" },
+  { country: "Taiwan", code: "TW" },
   { country: "Tajikistan", code: "TJ" },
   { country: "Tanzania, United Republic of", code: "TZ" },
   { country: "Thailand", code: "TH" },
@@ -209,7 +206,7 @@ const data = [
 
 var points = 0;
 var count = document.querySelector("h3");
-var num = Math.floor(Math.random() * 207);
+var num = Math.floor(Math.random() * 203);
 
 var flag = document.querySelector("img");
 flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code +".svg"
@@ -225,7 +222,7 @@ function getFlag(){
     input.disabled = false
     var answer = document.querySelector(".answer")
     answer.innerHTML = ""
-    num = Math.floor(Math.random() * 207);
+    num = Math.floor(Math.random() * 203);
     flag = document.getElementById("flag");
     flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code +".svg"
 }
@@ -239,12 +236,7 @@ input.addEventListener("keypress", function(event) {
     answer.innerHTML = name
     checkAnswer();
     input.disabled = true
-    enter += 1
     console.log(enter)
-  }
-
-  else if (event.key === "Enter" & enter ===1){
-    getFlag()
   }
 
 
