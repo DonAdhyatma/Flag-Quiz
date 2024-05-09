@@ -17,6 +17,9 @@ background: linear-gradient(94deg, rgba(24,29,60,1) 0%, rgba(30,48,96,1) 100%);
 img{
     height: 200px;
 }
+h3{
+    font-size: 0.8rem;
+}
 
 div {
     display: flex;
