@@ -201,56 +201,53 @@ const data = [
   { country: "Vietnam", code: "VN" },
   { country: "Yemen", code: "YE" },
   { country: "Zambia", code: "ZM" },
-  { country: "Zimbabwe", code: "ZW" }
+  { country: "Zimbabwe", code: "ZW" },
 ];
 
-var points = 0;
-var incorrect = 0;
-var count = document.querySelector(".points");
-var wrong = document.querySelector(".wrong");
-var num = Math.floor(Math.random() * 203);
+let points = 0;
+let incorrect = 0;
+let count = document.querySelector(".points");
+let wrong = document.querySelector(".wrong");
+let num = Math.floor(Math.random() * 203);
 
-var flag = document.querySelector("img");
-flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code +".svg"
+let flag = document.querySelector("img");
+flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code + ".svg";
 
-var enter = 0
+let enter = 0;
 
-function getFlag(){
-  enter = 0
-  if (!input.disabled){
+function getFlag() {
+  enter = 0;
+  if (!input.disabled) {
     checkAnswer();
   }
-    input.value = ""
-    input.disabled = false
-    var answer = document.querySelector(".answer")
-    answer.innerHTML = ""
-    num = Math.floor(Math.random() * 203);
-    flag = document.getElementById("flag");
-    flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code +".svg"
+  input.value = "";
+  input.disabled = false;
+  let answer = document.querySelector(".answer");
+  answer.innerHTML = "";
+  num = Math.floor(Math.random() * 203);
+  flag = document.getElementById("flag");
+  flag.src = "https://countryflagsapi.netlify.app/flag/" + data[num].code + ".svg";
 }
 
-var input = document.querySelector("input")
+let input = document.querySelector("input");
 
-input.addEventListener("keypress", function(event) {
-  if (event.key === "Enter" & enter===0) {
-    var name = data[num].country
-    var answer = document.querySelector(".answer")
-    answer.innerHTML = name
+input.addEventListener("keypress", function (event) {
+  if ((event.key === "Enter") & (enter === 0)) {
+    let name = data[num].country;
+    let answer = document.querySelector(".answer");
+    answer.innerHTML = name;
     checkAnswer();
-    input.disabled = true
-    console.log(enter)
+    input.disabled = true;
+    console.log(enter);
   }
-
-
 });
 
-function checkAnswer(){
-    if (input.value.toLowerCase() === data[num].country.toLowerCase()){
-        points +=1
-        count.innerHTML ="Points: " + points
-    }
-    else{
-      incorrect +=1
-      wrong.innerHTML = "Incorrect: " + incorrect
-    }
+function checkAnswer() {
+  if (input.value.toLowerCase() === data[num].country.toLowerCase()) {
+    points += 1;
+    count.innerHTML = "Points: " + points;
+  } else {
+    incorrect += 1;
+    wrong.innerHTML = "Incorrect: " + incorrect;
+  }
 }
